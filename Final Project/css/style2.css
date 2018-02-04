@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    color: white;
+}
+
+.main-nav {
+    list-style: none;
+    float: right;
+    margin-top: 60px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-nav li a:hover {
+    color: #7dfbfff6;
+    border-bottom: 2px solid #7dfbfff6;
+    transition: all .3s ease-in;
+    padding: 10px 0;
+}
+
+.main-nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Fredoka One";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.logo img {
+    margin-top: 20px;
+    height: 150px;
+    float: left;
+    color: white;
+}
+
+.Burger {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Indie Flower";
+    font-size: 20px;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../image/background.jpg');
+    background-blend-mode: multiply;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}

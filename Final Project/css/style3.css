@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../image/background.jpg');
+    background-blend-mode: multiply;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-nav {
+    list-style: none;
+    float: right;
+    margin-top: 60px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-nav li a:hover {
+    color: #7dfbfff6;
+    border-bottom: 2px solid #7dfbfff6;
+    transition: all .3s ease-in;
+    padding: 10px 0;
+}
+
+.main-nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Fredoka One";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.logo img {
+    margin-top: 20px;
+    height: 150px;
+    float: left;
+    color: white;
+    margin-bottom: 20px;
+}
+.real-recipe {
+    list-style: none;
+    width: 100%;
+}
+
+.real-recipe li {
+    width: 15%;
+}
+
+.recipe-photo {
+    display: flex;
+    float: left;
+    margin-top: 100px;
+    
+}
+
+.recipe-photo img {
+    width: 400px;
+    height: 300px;
+    border-radius: 150px;
+    padding: 30px;
+    margin-left: 100px;
+}
+.burger-description {
+    color: wheat;
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.burger-name {
+    font-family: "monoton";
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+p {
+    margin-top: 30px;
+    font-family: "days one";
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.desc {
+    font-family: "fredoka one";
+    font-size: 25px;
+}
