@@ -1,0 +1,33 @@
+header, footer {
+    height: 100px;
+}
+
+main, section, section2, aside {
+  height: 300px;  
+}
+
+header {
+    background: red;
+}
+
+main {
+    display: flex;
+}
+section2 {
+    background: black;
+    width: 60%;
+}
+
+section {
+    background: green;
+    width: 20%;
+}
+
+aside {
+    background: blue;
+    width: 20%;
+}
+
+footer {
+    background: yellow;
+}

@@ -1,0 +1,74 @@
+
+body {
+  font-size: 20px;
+  padding: 100px;
+  margin: 0 auto;
+  background: grey;
+  width: 1000px;
+}
+.wrapper {
+  font-family: "indie flower";
+  font-weight: bold;
+}
+h1 {
+  font-size: 50px;
+  font-family: "days one";
+}
+
+h2 {
+  font-size: 35px;
+  font-family: "indie flower";
+}
+
+.section {
+  margin-top: 60px;
+  height: 50px;
+  display: inline-block;
+  justify-content: space-around;
+ 
+}
+
+.left {
+  width: 35%;
+}
+
+.center {
+  width: 20%;
+  padding-right: 40px;
+  margin-top: 7px;
+}
+
+.right {
+  width: 35%;
+}
+
+input[type = text] {
+  color: black;
+  padding: 10px 20px;
+  border: none;
+}
+
+input[type = text]:focus {
+  border: 2px solid rgb(255, 251, 0);
+}
+
+p {
+  font-size: 42px;
+  display: inline;
+  padding-left: 10px;
+  
+}
+
+.click {
+  background: rgb(255, 251, 0);
+  color: #ff0000;
+  line-height: 60px;
+  border: none;
+  padding: 0 40px;
+  font-size: 20px;
+ 
+}
+
+.click:hover {
+  background: rgba(105, 252, 117, 0.671);
+}
